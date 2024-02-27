@@ -17,7 +17,7 @@ int main(void)
 	{
 		string s;
 		cin >> s;
-		char undertop;
+		char undertop; // top 바로 아래에 있는 괄호
 		ch = s[0];
 		st.push(ch); // 우선 하나를 스택에 집어 넣기
 		undertop = st.top();
@@ -38,9 +38,9 @@ int main(void)
 
 			char top = st.top();
 
-			if (undertop == '(' && top == ')')
+			if (undertop == '(' && top == ')') // 스택에 넣을 때마다 맨 위와 그 아래를 확인
 			{
-				st.pop();
+				st.pop(); // 괄호가 완성되면 둘 다 빼기
 				st.pop();
 			}
 		}

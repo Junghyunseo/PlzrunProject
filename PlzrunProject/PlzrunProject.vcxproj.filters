@@ -75,9 +75,6 @@
     <ClCompile Include="2751-2.cpp">
       <Filter>소스 파일\못 푼 문제</Filter>
     </ClCompile>
-    <ClCompile Include="9012.cpp">
-      <Filter>소스 파일\못 푼 문제</Filter>
-    </ClCompile>
     <ClCompile Include="10828.cpp">
       <Filter>소스 파일\못 푼 문제</Filter>
     </ClCompile>
@@ -247,6 +244,9 @@
       <Filter>소스 파일\푼 문제</Filter>
     </ClCompile>
     <ClCompile Include="27323.cpp">
+      <Filter>소스 파일\푼 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="9012.cpp">
       <Filter>소스 파일\푼 문제</Filter>
     </ClCompile>
   </ItemGroup>
