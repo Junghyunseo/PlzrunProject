@@ -46,12 +46,14 @@ int main(void)
 			big = middle; // 더 작은 쪽으로 업데이트
 			middle = (small + big) / 2;
 		}
+
 		num = 0; 
 		for (long long i = 0; i < k; i++)
 			num += arr[i] / big; // big짜리 랜선의 개수 구하기
 		if (num >= n)
 			if (max < big)
 				max = big;
+
 		num = 0;
 		for (long long i = 0; i < k; i++)
 			num += arr[i] / small; // small짜리 랜선의 개수 구하기
