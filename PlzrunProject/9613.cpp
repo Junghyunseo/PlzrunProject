@@ -50,7 +50,7 @@ int main(void)
 	{
 		long long ans = 0;
 		long long arr[105];
-		cin >> n;
+		cin >> n;	
 
 		for (int j = 0; j < n; j++)
 			cin >> arr[j];

@@ -17,7 +17,7 @@ int main(void)
 	for (int i = 0; i < 26; i++)
 		arr[i] = 'A' + i;
 
-	;	if (b == 10)
+	if (b == 10)
 		cout << n;
 	else
 	{

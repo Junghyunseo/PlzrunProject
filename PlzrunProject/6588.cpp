@@ -13,6 +13,10 @@ int main(void)
 		if (!arr[i])
 			for (int j = 2; i * j < 1000001; j++)
 				arr[i * j] = 1;
+	//for (int i = 2; i * i < 1001; i++)
+	//	if (!arr[i])
+	//		for (int k = i * i; k < 1000001; k += i)
+	//			arr[k] = 1;
 	int a = 0, b = 0;
 
 	vector<int> v; // 홀수인 소수만 들어있는 벡터
