@@ -16,7 +16,7 @@ int main(void)
 		{
 			cout << i << '\n';
 			n /= i;
-		}
+		}	
 		if (n == 1)
 			break;
 	}

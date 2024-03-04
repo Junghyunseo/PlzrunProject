@@ -264,5 +264,38 @@
     <ClCompile Include="1850.cpp">
       <Filter>소스 파일\답 본 문제</Filter>
     </ClCompile>
+    <ClCompile Include="10815.cpp">
+      <Filter>소스 파일\푼 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="10816.cpp">
+      <Filter>소스 파일\푼 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="10816-1.cpp">
+      <Filter>소스 파일\푼 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="10816-2.cpp">
+      <Filter>소스 파일\푼 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="11662.cpp">
+      <Filter>소스 파일\푼 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="11728.cpp">
+      <Filter>소스 파일\푼 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1780.cpp">
+      <Filter>소스 파일\푼 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1018.cpp">
+      <Filter>소스 파일\푼 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="11836.cpp">
+      <Filter>소스 파일\푼 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1436.cpp">
+      <Filter>소스 파일\푼 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1966.cpp">
+      <Filter>소스 파일\푼 문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
