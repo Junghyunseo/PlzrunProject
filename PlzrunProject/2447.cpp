@@ -11,7 +11,7 @@ void blank(int a, int b, int width) // 가운데를 빈칸으로 채워주는 함수
 			ch[a + i][b + j] = ' ';
 }
 
-void star(int a, int b, int n)
+void star(int a, int b, int n) // 별 채우는 함수
 {
 	if (n > 3) // 9개로 쪼개기
 	{
@@ -34,7 +34,7 @@ void star(int a, int b, int n)
 			for (int j = 0; j < n; j++)
 			{
 				if (i == 1 && j == 1)
-					blank(a+i, b+j, 1);
+					blank(a + i, b + j, 1);
 				else
 					ch[a + i][b + j] = '*';
 			}
