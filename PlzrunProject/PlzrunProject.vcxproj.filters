@@ -387,11 +387,65 @@
     <ClCompile Include="1963.cpp">
       <Filter>소스 파일\푼 문제</Filter>
     </ClCompile>
+    <ClCompile Include="1269.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
     <ClCompile Include="1003.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1251.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1051.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1302.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1049.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="9019.cpp">
       <Filter>소스 파일\푼 문제</Filter>
     </ClCompile>
-    <ClCompile Include="1269.cpp">
+    <ClCompile Include="18870.cpp">
       <Filter>소스 파일\푼 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="18870-1.cpp">
+      <Filter>소스 파일\푼 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1525.cpp">
+      <Filter>소스 파일\못 푼 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1094.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="25206.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1057.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1120.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1004.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1427.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="14425.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="11478.cpp">
+      <Filter>소스 파일\못 푼 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2903.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1213.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
