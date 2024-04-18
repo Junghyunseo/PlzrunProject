@@ -456,5 +456,8 @@
     <ClCompile Include="18111.cpp">
       <Filter>소스 파일\실버 일반 문제</Filter>
     </ClCompile>
+    <ClCompile Include="1015.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
