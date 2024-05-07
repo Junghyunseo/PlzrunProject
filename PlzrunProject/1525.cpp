@@ -1,69 +1,81 @@
-#include <iostream>
+#include<iostream>
 #include<queue>
-
 using namespace std;
-int used[1000000][3][3]{}; // 사용 여부 저장
 
-bool compare(int arr[3][3], int arr2[1000000][3][3])
+int arr[1000][3][3];
+
+bool isMatchedToAnswer()
 {
-
+	return false;
 }
 
 int main(void)
 {
 	cin.tie(0)->sync_with_stdio(0);
-
-	queue<int> q;
-
-	int goal[3][3] = {
-		{1,2,3},
-		{4,5,6},
-		{7,8,0}
-	};
-	int arr[1000000][3][3]{};
-
+	int num = 1;
+	int dx[4] = { 0,1,0,-1 };
+	int dy[4] = { 1,0,-1,0 };
 	for (int i = 0; i < 3; i++)
 		for (int j = 0; j < 3; j++)
-			cin >> arr[0][i][j];
-	
-	// used에도 넣어주기
+			arr[0][i][j] = num++;
+	arr[0][2][2] = 0;
 
+	int x, y;
+	for (int i = 0; i < 3; i++)
+		for (int j = 0; j < 3; j++)
+		{
+			cin >> arr[1][i][j];
+			if (arr[1][i][j] == 0)
+			{
+				x = i;
+				y = j;
+			}
+		}
+	int cnt = 0;
+	//처음꺼 검사도 추가하기
 
-
-	q.push(0);
-
-	int num = 1;
-
-	while (!q.empty())
+	queue<int> q;
+	q.push(1);
+	int d = 2;
+	while (1)
 	{
-		int tmp = q.front();
-		int x, y;
-		for (int i = 0; i < 3; i++)
+		int nat = 1;
+		bool isEnd = false;
+		for (int i = 0; i < 4; i++) // 상하좌우 움직인 판 다 순서대로 쌓기
 		{
-			for (int j = 0; j < 3; j++)
+			int nx = x + dx[i];
+			int ny = y + dy[i];
+			if (nx >= 0 || nx < 3 || ny >= 0 || ny < 3)
+				continue;
+			else
 			{
-				if (arr[tmp][i][j] == 0)
-				{
-					x = i;
-					y = j;
-				}
-			}
-		}
-		q.pop();
-
-		// 상하좌우와 값을 바꾼 것들을 넣어주기 겹치는거 빼고
-		if (x - 1 >= 0 && y >= 0)
-		{
-			int tmpArr[3][3];
-			for (int i = 0; i < 3; i++)
+				//int copy = q.front();
+				int copy = nat;
+				q.pop();
 				for (int j = 0; j < 3; j++)
-					tmpArr[i][j] = arr[tmp][i][j];
-			if (compare(tmpArr, used)) // 사용한 적 없던 것이면
-			{
+					for (int k = 0; k < 3; k++)
+						arr[copy + 1][j][k] = arr[copy][j][k];
+				int tmp = arr[copy + 1][nx][ny];
+				arr[copy + 1][nx][ny] = arr[d][x][y];
+				arr[copy + 1][nx][ny] = tmp;
 
+				for (int e = 1; e < d; e++)
+					if (isMatchedToAnswer())
+					{
+						isEnd = true;
+						break;
+					}
+						// 검사
 			}
+			if (isEnd)
+				break;
+			d++;
 		}
+		if (isEnd)
+			break;
 	}
+
+	cout << d;
 
 	return 0;
 }
