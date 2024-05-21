@@ -25,6 +25,12 @@
     <Filter Include="소스 파일\실버 일반 문제">
       <UniqueIdentifier>{44d988a2-edd2-44bf-92fe-105412ef7ea0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\골드 일반 문제">
+      <UniqueIdentifier>{62e2798a-2695-4220-aaed-c153e4de7afc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\브론즈 일반 문제">
+      <UniqueIdentifier>{779f08ff-ffe6-475b-915e-f9b52b3eb117}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1167.cpp">
@@ -526,6 +532,33 @@
       <Filter>소스 파일\실버 일반 문제</Filter>
     </ClCompile>
     <ClCompile Include="2346.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1240.cpp">
+      <Filter>소스 파일\골드 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2420.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1916.cpp">
+      <Filter>소스 파일\못 푼 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="15727.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1453.cpp">
+      <Filter>소스 파일\브론즈 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1544.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2217.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="10170.cpp">
+      <Filter>소스 파일\브론즈 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1388.cpp">
       <Filter>소스 파일\실버 일반 문제</Filter>
     </ClCompile>
   </ItemGroup>
