@@ -19,19 +19,14 @@ int main(void)
 	}
 
 	for (int i = 0; i < N; i++)
-	{
 		for (int j = 1; j < M; j++)
-		{
 			if ((vs[i][j - 1] == '-') && (vs[i][j] == '-'))
 				merge++;
-		}
-	}
 	for (int i = 0; i < M; i++)
-	{
 		for (int j = 1; j < N; j++)
 			if ((vs[j - 1][i] == '|') && (vs[j][i] == '|'))
 				merge++;
-	}
+
 	cout << N * M - merge;
 
 	return 0;
