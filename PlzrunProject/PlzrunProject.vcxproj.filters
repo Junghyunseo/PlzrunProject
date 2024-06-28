@@ -582,5 +582,98 @@
     <ClCompile Include="1439.cpp">
       <Filter>소스 파일\실버 일반 문제</Filter>
     </ClCompile>
+    <ClCompile Include="1748.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1431.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="18701.cpp">
+      <Filter>소스 파일\브론즈 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2799.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="10810.cpp">
+      <Filter>소스 파일\브론즈 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2444.cpp">
+      <Filter>소스 파일\브론즈 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1541.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="13241.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="10798.cpp">
+      <Filter>소스 파일\브론즈 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="19532.cpp">
+      <Filter>소스 파일\브론즈 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="13909.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="28297.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="27433.cpp">
+      <Filter>소스 파일\브론즈 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="28278.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="5086.cpp">
+      <Filter>소스 파일\브론즈 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="10813.cpp">
+      <Filter>소스 파일\브론즈 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="10811.cpp">
+      <Filter>소스 파일\브론즈 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2720.cpp">
+      <Filter>소스 파일\브론즈 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1292.cpp">
+      <Filter>소스 파일\브론즈 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2501.cpp">
+      <Filter>소스 파일\브론즈 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="24723.cpp">
+      <Filter>소스 파일\브론즈 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="9506.cpp">
+      <Filter>소스 파일\브론즈 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1085.cpp">
+      <Filter>소스 파일\브론즈 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="3009.cpp">
+      <Filter>소스 파일\브론즈 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="14501.cpp">
+      <Filter>소스 파일\못 푼 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="30007.cpp">
+      <Filter>소스 파일\못 푼 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="5341.cpp">
+      <Filter>소스 파일\브론즈 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="9093.cpp">
+      <Filter>소스 파일\답 본 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2740.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1389.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1547.cpp">
+      <Filter>소스 파일\브론즈 일반 문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
