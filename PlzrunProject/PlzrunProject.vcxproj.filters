@@ -570,9 +570,6 @@
     <ClCompile Include="2606.cpp">
       <Filter>소스 파일\실버 일반 문제</Filter>
     </ClCompile>
-    <ClCompile Include="1074.cpp">
-      <Filter>소스 파일\못 푼 문제</Filter>
-    </ClCompile>
     <ClCompile Include="16394.cpp">
       <Filter>소스 파일\브론즈 일반 문제</Filter>
     </ClCompile>
@@ -674,6 +671,15 @@
     </ClCompile>
     <ClCompile Include="1547.cpp">
       <Filter>소스 파일\브론즈 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1074.cpp">
+      <Filter>소스 파일\실버 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="14645.cpp">
+      <Filter>소스 파일\브론즈 일반 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1759.cpp">
+      <Filter>소스 파일\못 푼 문제</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
